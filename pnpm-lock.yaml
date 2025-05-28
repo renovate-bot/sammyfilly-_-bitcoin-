@@ -27,8 +27,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@vercel/examples-ui':
-        specifier: ^1.0.4
-        version: 1.0.4(next@13.4.20-canary.27)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.0.3(next@13.4.20-canary.27)(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: canary
         version: 13.4.20-canary.27(react-dom@18.2.0)(react@18.2.0)
@@ -373,19 +373,18 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vercel/examples-ui@1.0.4(next@13.4.20-canary.27)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-yfCHFn478904BLa9iwvoTPCEBGzxd7MOFHmuVgYPBQemNqO4bjdU3i51qFcYYMQJxOjYfk/1cGCxEBJ4UGE2Zg==}
+  /@vercel/examples-ui@2.0.3(next@13.4.20-canary.27)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xqg4KB4HYuY9viei5mRn0NFYUG4ThA0V2v7EEnpPPbv7dyiW/sZKOkVINzRhfE/f67WFdiOjAqCpR7CG6U9Tlg==}
     peerDependencies:
       next: '*'
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
     dependencies:
-      '@swc/helpers': 0.4.14
+      '@swc/helpers': 0.5.1
       clsx: 1.2.1
       next: 13.4.20-canary.27(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      sugar-high: 0.4.6
     dev: false
 
   /acorn-jsx@5.3.2(acorn@8.8.1):
@@ -2448,10 +2447,6 @@ packages:
     dependencies:
       client-only: 0.0.1
       react: 18.2.0
-    dev: false
-
-  /sugar-high@0.4.6:
-    resolution: {integrity: sha512-V/5BlmDTQ0YCD6o+xumBpOBP8CWDqVDA8Pt7W/i8QzkwFnYwBxX9T4a8XRmay7ulnnCj/5rX3f845tbkXU1lIw==}
     dev: false
 
   /supports-color@7.2.0:
